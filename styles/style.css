@@ -54,6 +54,7 @@ main {
 /* my-failures section css */
 .my-failures {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 70px;
     margin: 100px 0;
@@ -86,7 +87,7 @@ main {
 
 .plans-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 30px 0;
 }
 
@@ -104,4 +105,51 @@ main {
 .plan-description {
     color: #757575;
     font-weight: 500;
+}
+
+/* footer css */
+footer {
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-left p {
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.footer-left a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.subscribe h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.subscribe input[type="text"] {
+    margin: 24px 0;
+    border: 1px solid #FFFFFF;
+    background: #151414;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.footer-left {
+    width: 485px;
+}
+
+.btn-subscribe {
+    color: #FFFFFF;
+    background-color: #005FAC;
 }

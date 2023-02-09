@@ -15,6 +15,7 @@
     cursor: pointer;
 }
 
+/* header css */
 .header {
     display: flex;
     background-image: url('../images/banner/banner3.png');
@@ -45,6 +46,7 @@
     margin: 30px 0;
 }
 
+/* main css */
 main {
     margin: 0 200px;
 }
@@ -71,5 +73,35 @@ main {
 }
 
 .my-failures-content ul li {
+    color: #444343;
     margin-bottom: 10px;
+}
+
+/* my-plans section css */
+.my-plans h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.plan {
+    padding: 30px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.plan-description {
+    color: #757575;
+    font-weight: 500;
 }

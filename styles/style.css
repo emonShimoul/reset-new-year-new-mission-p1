@@ -30,7 +30,7 @@
     text-align: right;
     width: 60%;
     margin-right: 200px;
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .header-title {
@@ -43,5 +43,33 @@
     color: #FFFFFF;
     line-height: 26px;
     margin: 30px 0;
+}
 
+main {
+    margin: 0 200px;
+}
+
+/* my-failures section css */
+.my-failures {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 100px 0;
+}
+
+.my-failures-heading {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.my-failures-description {
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.my-failures-content ul li {
+    margin-bottom: 10px;
 }

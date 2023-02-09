@@ -112,6 +112,7 @@ main {
     background-image: url('../images/watch.png'), url('../images/gradient1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
     margin: 100px 0;
     padding: 60px 65px;
 }

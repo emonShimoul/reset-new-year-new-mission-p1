@@ -107,6 +107,69 @@ main {
     font-weight: 500;
 }
 
+/* about-me section css */
+.about-me {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.about-me-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about-me-content {
+    display: flex;
+    gap: 100px;
+}
+
+.about-me-description {
+    margin-bottom: 30px;
+    width: 60%;
+    padding-left: 50px;
+    text-align: justify;
+    position: center;
+}
+
+.about-me-image {
+    text-align: center;
+}
+
+.about-me-description img {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.about-me-info-container {
+    margin-top: 20px;
+    width: 40%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-me-info-container p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.info-label {
+    font-weight: 700;
+}
+
+.about-me-info-container p a {
+    text-decoration: none;
+}
+
+.btn-call-now {
+    color: #FFFFFF;
+    background-color: #005FAC;
+    margin-top: 20px;
+}
+
+
 /* call-now section css */
 .call-now {
     background-image: url('../images/watch.png'), url('../images/gradient1.png');
